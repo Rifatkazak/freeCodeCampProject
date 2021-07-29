@@ -2,19 +2,157 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border:1px solid white; */
+    border-radius: 5px;
 }
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: 500;
     background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
 
 }
 
 .container {
-    width: 50%;
-    height: 70rem;
+    width: 35%;
+    height: 81rem;
     margin: auto;
+    
 }
+.header{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: normal;
+    opacity: 0.8;
+    
+}
+.content {
+    background-color: #292948;
+    padding: 3rem;
+    font-size: 1.3em;
+}
+
+
+label {
+    margin-bottom: 1.2rem;
+}
+input {
+    margin-bottom: 1.2rem;
+    height: 2.6rem;
+    font-size: large;
+    padding-left: 1rem;
+    
+    
+
+}
+::placeholder{
+    font-size: large;
+   
+}
+#role {
+    height: 2.6rem;
+    font-size: large;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.name,
+.email,
+.age,
+.role,
+.recommend,
+.feature,
+.improved,
+.suggest {
+    display: flex;
+    flex-direction: column;
+}
+#maybe,
+#definitely,
+#notsure {
+    width: 1.8rem;
+    vertical-align: text-top;
+
+}
+#radio{
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+
+}
+.radio{
+    padding-top:0rem;
+    
+}
+.recommend{
+    margin-top: 1rem;
+    justify-content: center;
+
+}
+.reco{
+    margin-bottom: 1rem;
+}
+.feature {
+    margin-top: 2rem;
+    
+}
+#feature {
+    height: 2.6rem;
+    font-size: large;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+.improved {
+    margin-top: 2rem;
+    
+    
+}
+.checkbox {
+    padding-bottom: 1rem;
+    
+}
+#add,
+#forum,
+#wiki,
+#city,
+#video,
+#gitter,
+#open,
+#chall,
+#data,
+#backend,
+#frontend {
+    width: 1.6rem;
+    vertical-align:text-top;
+
+}
+
+.improved label {
+    padding-left: 0.5rem;
+}
+
+#textarea::placeholder {
+    font-size: 1.5em;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.btn{
+    width: 100%;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: #37AF65;
+    color: honeydew;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+
+
